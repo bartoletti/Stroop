@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp-Editor</name>
+    </assembly>
+    <members>
+        <member name="T:OculusBuildApp">
+            <summary>
+            Allows Oculus to build apps from the command line.
+            </summary>
+        </member>
+        <member name="T:OVRScreenshotWizard">
+            <summary>
+            From the selected transform, takes a cubemap screenshot that can be submitted with the application
+            as a screenshot (or additionally used for reflection shaders).
+            </summary>
+        </member>
+        <member name="M:OVRScreenshotWizard.OnWizardUpdate">
+            <summary>
+            Validates the user's input
+            </summary>
+        </member>
+        <member name="M:OVRScreenshotWizard.CreateAssetPath(System.String)">
+            <summary>
+            Create the asset path if it is not available.
+            Assuming the newFolderPath is stated with "Assets", which is a requirement.
+            </summary>
+        </member>
+        <member name="M:OVRScreenshotWizard.OnWizardCreate">
+            <summary>
+            Renders the cubemap
+            </summary>
+        </member>
+        <member name="M:OVRScreenshotWizard.GenerateTexture(UnityEngine.Cubemap,System.String)">
+            <summary>
+            Generates a NPOT 6x1 cubemap in the following format PX NX PY NY PZ NZ
+            </summary>
+        </member>
+        <member name="M:OVRScreenshotWizard.TakeOVRScreenshot">
+            <summary>
+            Unity Editor menu option to take a screenshot
+            </summary>
+        </member>
+    </members>
+</doc>
