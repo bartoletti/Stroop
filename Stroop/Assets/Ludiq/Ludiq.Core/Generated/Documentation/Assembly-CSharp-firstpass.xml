@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp-firstpass</name>
+    </assembly>
+    <members>
+        <member name="M:UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.GroundCheck">
+            sphere cast down just beyond the bottom of the capsule to see if the capsule is colliding round the bottom
+        </member>
+    </members>
+</doc>

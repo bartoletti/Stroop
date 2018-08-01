@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"pan":{"x":556.0714,"y":142.1973},"zoom":0.65,"elements":[{"defaultValues":{},"position":{"x":-219.0,"y":89.0},"guid":"710611c9-b6d6-4f60-900c-22382f643172","$version":"A","$type":"Bolt.Update"},{"defaultValues":{},"position":{"x":128.0,"y":242.0},"guid":"432c9eb2-1ded-4a21-a18e-31668aea7f50","$version":"A","$type":"Bolt.Self","$id":"11"},{"kind":"Application","defaultValues":{"name":{"$content":"Player","$type":"System.String"}},"position":{"x":291.0,"y":163.0},"guid":"875d2b36-c593-4fc1-8430-0329a707d9ca","$version":"A","$type":"Bolt.SetVariable","$id":"13"},{"defaultValues":{},"position":{"x":120.0,"y":142.0},"guid":"d5f474db-adb5-4d18-b73f-a6b3684262b3","$version":"A","$type":"Bolt.Start","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"25728a18-8d87-448d-8a46-dc2f77e68e90","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"self","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"fde84e44-3b38-4c12-a9f2-08f94547f117","$type":"Bolt.ValueConnection"},{"position":{"xMin":85.25,"yMin":80.25,"xMax":464.0,"yMax":370.25},"label":"Player
+      App Variable","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"275c11a1-7e74-4d3b-86d2-6bb2b15a238b","$version":"A","$type":"Ludiq.GraphGroup"}],"title":null,"summary":null,"$version":"A"}}'
+    _objectReferences: []
