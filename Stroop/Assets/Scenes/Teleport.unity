@@ -360,11 +360,11 @@ Transform:
   m_GameObject: {fileID: 233443438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14592643, y: 0.14592639, z: 0.14592639}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1558256539}
-  m_Father: {fileID: 1296542168}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &257791699
 GameObject:
@@ -395,52 +395,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &288163595
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 6.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4078126657904432, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1577700649238884, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 6de55f4369eafe746b6a22da65fadb70, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &412700566
 Prefab:
   m_ObjectHideFlags: 0
@@ -635,7 +589,7 @@ Transform:
   m_LocalScale: {x: 0.14592643, y: 0.14592639, z: 0.14592639}
   m_Children: []
   m_Father: {fileID: 1296542168}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &739786442
 Prefab:
@@ -5304,11 +5258,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!1 &883529051 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1577700649238884, guid: 6de55f4369eafe746b6a22da65fadb70,
-    type: 2}
-  m_PrefabInternal: {fileID: 288163595}
 --- !u!1 &1170309136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5392,12 +5341,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1170309136}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.042318664, y: 0.01984599, z: 1.377545}
-  m_LocalScale: {x: 0.14592643, y: 0.01164017, z: 0.14592639}
+  m_LocalPosition: {x: 0.29, y: 0.136, z: 9.439999}
+  m_LocalScale: {x: 1, y: 0.079767406, z: 1}
   m_Children:
   - {fileID: 873807321}
-  m_Father: {fileID: 1296542168}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1170309141
 Rigidbody:
@@ -5528,8 +5477,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 6.852768, y: 6.85277, z: 6.85277}
   m_Children:
-  - {fileID: 233443444}
-  - {fileID: 1170309140}
   - {fileID: 685905442}
   m_Father: {fileID: 257791700}
   m_RootOrder: 0
@@ -10228,6 +10175,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TeleportTo","value":{"$content":0,"$type":"UnityEngine.GameObject"},"$version":"A"},{"name":"PlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 883529051}
+    _json: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
